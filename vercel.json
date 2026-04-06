@@ -1,0 +1,26 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/theme/nero/subpage/01.php",
+      "destination": "/theme/nero/subpage/01.php.html"
+    },
+    {
+      "source": "/theme/nero/subpage/02.php",
+      "destination": "/theme/nero/subpage/02.php.html"
+    },
+    {
+      "source": "/theme/nero/subpage/03.php",
+      "destination": "/theme/nero/subpage/03.php.html"
+    },
+    {
+      "source": "/theme/nero/subpage/04.php",
+      "destination": "/theme/nero/subpage/04.php.html"
+    },
+    {
+      "source": "/theme/nero/subpage/05.php",
+      "destination": "/theme/nero/subpage/05.php.html"
+    }
+  ]
+}

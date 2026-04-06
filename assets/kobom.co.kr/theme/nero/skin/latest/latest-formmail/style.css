@@ -1,0 +1,127 @@
+@charset "utf-8";
+/*
+------------------------------------------------------------------------------------------------------------------------
+폼메일 쓰기 스타일
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+.circle {width: 5px; height: 5px; border-radius: 5px; background: #797979; margin-right: 5px;  display: inline-block;}
+
+#formmail-write { }
+#formmail-write .form-group1  {}
+#formmail-write .form-group1 .box  {display: flex; border-bottom:  1px solid #e0e0e0;}
+#formmail-write .form-group1 .box2 {border-bottom: 2px solid #4c4c4c;}
+#formmail-write .form-group1 .box1 {border-top: 2px solid #4c4c4c;}
+#formmail-write .form-group1 .box label {width: 20%; display: flex; align-items: center;}
+#formmail-write .form-group1 .box .input_wrap {width: 80%;}
+
+.input_wrap {padding: 12px 32px; background: #f9f9f9; border-left: 1px solid #e0e0e0;}
+
+#formmail-write .form-group label{font-size:18px; font-weight: 600; padding-left: 25px; }
+#formmail-write .form-group label p {font-size:18px; font-weight: 600;}
+#formmail-write .form-group input {line-height: 34px; width: 100%; padding: 0 10px; border: 2px solid #e6e6e6;}
+
+#formmail-write .form-group .num {display: flex; align-items: center;}
+#formmail-write .form-group .num select {width: 26.6%; max-width: 130px;}
+#formmail-write .form-group .num input{width: 26.6%; max-width: 130px;}
+#formmail-write .form-group .num span{font-size:19px;  color: #656565; padding:  0 10px; }
+
+
+#formmail-write .privacy-of-use-check {margin-bottom: 15px; display: flex; justify-content: center; align-items: center; padding: 20px 0; background: #f9f9f9; border: 2px solid #e5e5e5; border-top: none;}
+#formmail-write .privacy-of-use-check label { font-size:18px; font-weight: 500; color: #656565; display: flex; justify-content: left; align-items: center; text-align: center;}
+#formmail-write .privacy-of-use-check input {margin-right: 10px;}
+#formmail-write .privacy-of-use-check label span { font-size:19px; font-weight: 500; color: #656565; margin-left: 10px; cursor: pointer;}
+
+/* 체크박스 커스텀 */
+#formmail-write .privacy-of-use-check input[type="checkbox"].required {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+}
+
+/* 체크된 상태 스타일 */
+#formmail-write .privacy-of-use-check input[type="checkbox"].required:checked {
+    background-color: #838383; 
+    border-color: #838383; 
+}
+
+/* 체크 표시 스타일 */
+#formmail-write .privacy-of-use-check input[type="checkbox"].required:checked::after {
+    content: '✓';
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#formmail-write .link {position: relative; margin-top: 100px; display: flex; justify-content: center;}
+#formmail-write .link_wrap  {width: 300px; border-radius: 50px; border: 1px solid #222;position: relative;  display: inline-block; position: relative; display: flex; justify-content: center;}
+#formmail-write .link_wrap::before {content: "";
+    position: absolute; left: 265px; top: 50%; transform: translate(0,-50%); width: 0px; height: 1px; background: #222; display: inline-block; transition: all 0.8s;
+}
+#formmail-write .link_wrap .link_circle {display: inline-block; width: 6px ;height: 6px  ; border-radius: 3px; background: #222; position: absolute; right: -64px; top: 50%; transform: translate(0,-50%); opacity: 0;}
+
+#formmail-write .link_wrap button {font-size: var(--fs22); color: #222 !important; padding: 24px 0; font-weight: 300; display: block !important; background: transparent; text-align: center; border: none !important;}
+
+#formmail-write .link_wrap:hover::before { width: 85px;
+}
+#formmail-write .link_wrap:hover .link_circle {transition: all 0.8s; opacity: 1; transition: opacity 0.2s ease-in-out 0.7s;}
+
+
+
+#formmail-write select {padding-left: 5px; width: 100%; height: 38px; color: #a4a4a4;  border: 2px solid #e6e6e6;}
+#formmail-write option { line-height: 38px; font-size:16px; color: #a4a4a4;  border: 2px solid #e6e6e6;}
+
+/* 동의 */
+.form-consent h3 {font-size:var(--fs28); font-weight: 700;  margin-top: 60px;}
+.form-consent .box_wrap {border: 2px solid #e6e6e6; width: 100%; margin-top: 9px; padding: 50px; margin-top: 20px;}
+.form-consent .box_wrap.txt {display: inline-block;}
+
+.form-consent .box_wrap p { font-size: 1.8rem; line-height: 1.6;}
+.form-consent .box_wrap h3 { font-size: 1.8rem; font-weight: 700;}
+
+.form-consent .box_wrap .txt h5 { font-weight: 800; font-size: 1.8rem; line-height: 1.6; text-decoration: underline solid #222;}
+
+
+
+
+@media all and (max-width: 1400px){
+
+}
+@media all and (max-width: 1200px){
+}
+@media all and (max-width: 1024px){
+    #formmail-write .form-footer {padding: 11px;}
+    .form-consent .box_wrap { padding: 25px; }
+    #formmail-write .link {position: relative; margin-top: 60px;}
+
+}
+@media all and (max-width: 900px){
+}
+@media all and (max-width: 850px){
+}
+@media all and (max-width: 768px){
+    #formmail-write .link_wrap  {width: 150px;}
+    #formmail-write .link_wrap::before { left: 130px; width: 35px;}
+    #formmail-write .link_wrap:hover::before { width: 35px;}
+    #formmail-write .link_wrap .link_circle  {opacity: 1; right: -29px;}
+    #formmail-write .link_wrap button {font-size: 16px; padding: 16px 0;}
+
+}
+@media all and (max-width: 650px){
+    #formmail-write .form-group label{ padding-left: 5px; }
+#formmail-write .form-group1 .box label {width: 25%; }
+#formmail-write .form-group1 .box .input_wrap {width: 75%;}
+.input_wrap {padding: 12px 20px;}
+}

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="ko">
+<head><script>
+(function(){
+  window.location.reload = function(){};
+  window.EventSource = function(){ return { close:function(){}, addEventListener:function(){}, removeEventListener:function(){}, readyState:2 }; };
+})();
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="https://kobom.co.kr/theme/nero/img/thum.png">
+<link rel="icon" href="/theme/nero/img/favi.ico" type="image/x-icon" sizes="16x16">
+<meta name="robots" content="ALL"/>
+<meta name="title" content="체질 진단 결과 | 대신완료"/>
+<meta name="keywords" content="대구 한의원 추천, 대구 다이어트 한의원, 대구 비만 한의원, 다이어트 한의원, 체중감량 한의원, 대신완료, DAESHIN"/>
+<meta name="description" content="체질 진단 결과를 확인하세요."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="체질 진단 결과 | 대신완료"/>
+<meta property="og:description" content="체질 진단 결과를 확인하세요."/>
+<meta property="og:url" content="https://kobom.co.kr/"/>
+<meta property="og:site_name" content="대신완료"/>
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>체질 진단 결과 | 대신완료</title>
+<link rel="stylesheet" href="/theme/nero/css/default.css">
+<link rel="stylesheet" href="../../../js/font-awesome/css/font-awesome.min.css">
+<script>
+var g5_url       = "https://kobom.co.kr";
+var g5_bbs_url   = "https://kobom.co.kr/bbs";
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "";
+var g5_bo_table  = "";
+var g5_sca       = "";
+var g5_editor    = "";
+var g5_cookie_domain = "";
+</script>
+<link rel="stylesheet" type="text/css" href="../../../assets/cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+<link rel="stylesheet" type="text/css" href="../../../assets/cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link href="../../../assets/cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="../../../assets/webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+<script src="../../../assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="../../../assets/cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="../../../assets/cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="../../../assets/code.jquery.com/jquery-3.7.0.js"></script>
+<script src="/theme/nero/js/main.js"></script>
+<script type="text/javascript" src="/theme/nero/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/theme/nero/js/common.js"></script>
+<script type="text/javascript" src="/theme/nero/js/aos.js"></script>
+<link rel="stylesheet" href="/theme/nero/css/animate.css">
+<link rel="stylesheet" href="/theme/nero/css/aos.css">
+<link rel="stylesheet" href="/theme/nero/css/layout.css">
+<link rel="stylesheet" href="/theme/nero/css/style.css">
+<script src="../../../js/jquery-1.12.4.min.js"></script>
+<script src="../../../js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../../../js/jquery.menu.js"></script>
+<script src="../../../js/wrest.js"></script>
+<script src="../../../js/placeholders.min.js"></script>
+
+<style>
+.result_wrap {
+  padding: 140px 0 120px;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.result_wrap .width1200 {
+  width: 100%;
+}
+.result_card {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+.result_card .result_badge {
+  display: inline-block;
+  background: #464646;
+  color: #fff;
+  font-size: var(--fs22);
+  font-weight: 500;
+  padding: 8px 28px;
+  border-radius: 50px;
+  margin-bottom: 36px;
+  letter-spacing: 0.05em;
+}
+.result_card h2.result_type {
+  font-size: var(--fs50);
+  font-weight: 700;
+  color: #222;
+  line-height: 1.25;
+  margin-bottom: 32px;
+}
+.result_card .result_divider {
+  width: 48px;
+  height: 3px;
+  background: #222;
+  margin: 0 auto 36px;
+}
+.result_card .result_desc {
+  font-size: var(--fs22);
+  color: #555;
+  line-height: 1.85;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+.result_card .result_sub {
+  font-size: var(--fs18);
+  color: #999;
+  margin-bottom: 56px;
+  line-height: 1.7;
+}
+.result_card .result_btns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.result_card .btn_reserve {
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  font-size: var(--fs22);
+  font-weight: 500;
+  padding: 18px 48px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s;
+  letter-spacing: 0.03em;
+}
+.result_card .btn_reserve:hover { background: #444; }
+.result_card .btn_back {
+  display: inline-block;
+  background: transparent;
+  color: #666;
+  font-size: var(--fs22);
+  font-weight: 400;
+  padding: 18px 48px;
+  border-radius: 50px;
+  border: 1.5px solid #ccc;
+  text-decoration: none;
+  transition: border-color 0.25s, color 0.25s;
+  letter-spacing: 0.03em;
+}
+.result_card .btn_back:hover { border-color: #888; color: #333; }
+
+@media (max-width: 768px) {
+  .result_wrap { padding: 100px 0 80px; }
+  .result_card .btn_reserve, .result_card .btn_back { padding: 15px 32px; }
+}
+@media (max-width: 480px) {
+  .result_wrap { padding: 80px 0 60px; }
+  .result_card .result_btns { flex-direction: column; align-items: center; }
+  .result_card .btn_reserve, .result_card .btn_back { width: 100%; max-width: 280px; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<div class="all_wrap">
+
+  <!-- pc 상단 메뉴 -->
+<nav id="header">
+  <div class="width">
+    <div class="head_menu" id="mild_head">
+      <div class="logo">
+        <a href="/"><img src="/theme/nero/img/logo.png" alt=""></a>
+      </div>
+      <ul class="main_menu" id="mild_menu">
+          <li class="dept1">
+            <a class=" fs35" href="/" class="">처음</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/01.php.html" class="">비만</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/02.php.html" class="">체중</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/03.php.html" class="">체크하기</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/04.php.html" class="">소개</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/bbs/review" class="">후기</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/bbs/notice" class="">질문</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/05.php.html" class="">예약하기</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 모바일 메뉴 -->
+<div class="mobile_head">
+  <div class="mobile_logo">
+    <a href="/"><img src="/theme/nero/img/logo.png" alt=""></a>
+  </div>
+  <div class="mobile_btn">
+    <a href="javascript:" class="mobile_open">
+      <i class="ri-menu-3-line"></i>
+    </a>
+  </div>
+</div>
+<div class="mob_bg"></div>
+
+<div id="mobile_menu" class="mobile_menu">
+  <div class="mob_logo">
+    <a href="/"><img src="/theme/nero/img/logo.png" alt="" ></a>
+    <div class="m_lang_wrap">
+      <span class="mobile_close"><i class="ri-close-line"></i></span>
+    </div>
+  </div>
+
+  <li class="dept1">
+            <a class=" fs35" href="/" class="">처음</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/01.php.html" class="">비만</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/02.php.html" class="">체중</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/03.php.html" class="">체크하기</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/04.php.html" class="">소개</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/bbs/review" class="">후기</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/bbs/notice" class="">질문</a>
+          </li>
+          <li class="dept1">
+            <a class=" fs35" href="/theme/nero/subpage/05.php.html" class="">예약하기</a>
+          </li>
+    </ul>
+</div>
+<div class="mob_bg"></div>
+
+<!-- 결과 영역 -->
+<div class="result_wrap">
+  <div class="width1200">
+    <div class="result_card" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+      <div class="result_badge">체질 진단 결과</div>
+      <h2 class="result_type" id="result_type_title">—</h2>
+      <div class="result_divider"></div>
+      <p class="result_desc" id="result_desc_text"></p>
+      <p class="result_sub">보다 정확한 상담은 한의원에 직접 문의해 주세요.<br>아래 버튼으로 간편하게 예약하실 수 있습니다.</p>
+      <div class="result_btns">
+        <a href="/theme/nero/subpage/05.php.html" class="btn_reserve">예약하기</a>
+        <a href="/theme/nero/subpage/03.php.html" class="btn_back">다시 진단하기</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="quick_banner">
+<ul>
+    <li><a href="https://pf.kakao.com/_ihYxoG" target="blank_"><img src="/theme/nero/img/quick_img4.png" alt=""></a></li>
+    <li><a href="#"><img src="/theme/nero/img/quick_img3.png" alt=""></a></li>
+    <li><a class="tel" href="tel:000-000-0000"><img src="/theme/nero/img/quick_img2.png" alt=""></a></li>
+    <li><a class="top" href="#">TOP</a></li>
+</ul>
+</div>
+
+<div class="quick_bannermob">
+<ul>
+    <li><a class="tel" href="tel:000-000-0000"><img src="/theme/nero/img/mob_quick_img2.png" alt=""></a><p>전화상담</p></li>
+    <li><a href="#"><img src="/theme/nero/img/mob_quick_img3.png" alt=""></a><p>라인</p></li>
+    <li><a href="https://pf.kakao.com/_ihYxoG" target="blank_"><img src="/theme/nero/img/mob_quick_img4.png" alt=""></a><p>카카오채널</p></li>
+    <li><a class="top top1" href="#"><img src="/theme/nero/img/mob_quick_img1.png" alt=""></a><p>상단이동</p></li>
+</ul>
+</div>
+
+<!-- 하단 시작 -->
+<div id="ft">
+  <div class="width">
+    <a href="/" class="foot_logo"><img src="/theme/nero/img/flogo.png" alt=""></a>
+    <div class="foot_info">
+      <span>브랜드명 <span>ㅣ</span> 대신료</span><br>
+      <span>서울특별시 예시구 템플릿로 00 1층 <span>ㅣ</span> 사업자등록번호 : 000-00-00000</span><br>
+      <span>전화문의 : 000-0000-0000<span>ㅣ</span>Fax : 000 000 0000</span><br>
+      <span class="copyright">ⓒ 2025 Daeshinwanryo.<br> All rights reserved. Designed by Daeshinwanryo.</span>
+    </div>
+    <ul class="foot_sns">
+        <li><a href="https://pf.kakao.com/_ihYxoG" target="blank_">카카오톡</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<!-- } 하단 끝 -->
+
+<script>
+$(function() {
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
+
+<script>
+(function() {
+  var results = {
+    complex: {
+      title: '복합형 비만 체질',
+      desc: '식욕 조절과 대사 기능 저하가 함께 나타나는 체질입니다.\n식욕 조절과 대사 활성화를 함께 진행하는\n맞춤 한방 다이어트 솔루션이 적합합니다.'
+    },
+    heat: {
+      title: '과식형(열성) 체질',
+      desc: '식욕 조절에 어려움을 느끼는 열성 체질입니다.\n식욕 조절 중심의 한방 다이어트 솔루션으로\n건강한 체중 감량을 도와드립니다.'
+    },
+    cold: {
+      title: '저대사형(냉성) 체질',
+      desc: '신진대사가 낮아 체중 감량이 어려운 냉성 체질입니다.\n신진대사 활성화 중심의 한방 다이어트 솔루션으로\n꾸준한 체중 관리를 도와드립니다.'
+    },
+    default: {
+      title: '체질 분석 중',
+      desc: '체크 항목을 바탕으로 체질을 분석하였습니다.\n정확한 진단을 위해 한의원 방문을 권장드립니다.'
+    }
+  };
+
+  var params = new URLSearchParams(window.location.search);
+  var type = params.get('type') || 'default';
+  var data = results[type] || results['default'];
+
+  document.getElementById('result_type_title').textContent = data.title;
+  document.getElementById('result_desc_text').textContent = data.desc;
+
+  AOS.init();
+})();
+</script>
+
+</body>
+</html>
