@@ -33,6 +33,13 @@
 #section6 .announce_wrap a span img{width: 100%;}
 #section6 .announce_wrap a .arrow{position: absolute; right: 27px; bottom: 35px;}
 
+/* 페이지네이션 */
+.pg_wrap {float: none; display: block; width: 100%; text-align: center; margin: 40px 0;}
+.pg_page, .pg_current {padding: 8px 14px; font-size: 15px; margin: 0 3px; border-radius: 4px;}
+.pg_current {background: #333; color: #fff; border-color: #333;}
+.pg_page {color: #333;}
+.pg_page:hover {background: #f0f0f0;}
+
 
 
 
